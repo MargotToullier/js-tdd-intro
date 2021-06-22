@@ -1,6 +1,16 @@
 const assert = require('assert');
 
-
+function capitalizeFirstLetters(input){
+  const word = []
+  if (input = ''){
+    return ''
+  } else {
+    for(let i=0 ; i < input.length ; i++){
+    word = push.input[0].toUpperCase();
+    }
+  return word
+  }
+}
 
 // Check that capitalizeFirst transforms javaScript correctly
 
